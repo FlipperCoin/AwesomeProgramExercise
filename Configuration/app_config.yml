@@ -1,0 +1,12 @@
+receiver:
+    hostname: localhost
+    port: 6666
+    exchange: awesomeProgramIn
+dispatcher:
+    hostname: localhost
+    port: 6666
+    exchange: awesomeProgramOut
+
+outputAggregation:
+    maxSeconds: 5
+    maxItems: 1000
