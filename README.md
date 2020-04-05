@@ -5,6 +5,9 @@ This repository contains an exercise in application initialization based on auto
 In this repo you can find a solution named "AwesomeProgram".  
 The solution contains a program that is already fully implemented, but not initiated. Your job is to fix that!
 
+## Autofac Background
+If you didn't already, You should probably read through Autofac's [documentation](https://autofaccn.readthedocs.io/en/latest/getting-started/index.html) before starting the exercise
+
 ## Solution Overview
 The solution contains:  
 1. Configuration  
