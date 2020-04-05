@@ -19,11 +19,9 @@ The solution contains:
 ## The Exercise
 ### Phase 1
 1. Add the Autofac NuGet package as a project dependency in the Runner project  
-NOTE: you can find the package in the package source []
 2. Create a ContainerBuilder and start adding the services needed for the Facade class
+NOTE: There's a pseudo relationship diagram [relationships.drawio](relationships.drawio) that might help you, which you can view at https://app.diagrams.net/
 3. Build the container 
 4. Resolve Facade and AsyncStartableRunner  
     1. Notice that AsyncStartableRunner requires an "IEnumerable\<IAsyncStartable>", and because you have registered the dispatcher and receiver they would be provided here.
 5. init the Facade and run the program with the AsyncStartableRunner
-### Phase 2
-WIP
